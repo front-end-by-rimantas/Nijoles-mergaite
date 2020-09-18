@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin: 0 calc((100% - 800px) / 2) 100px;
+    color: red;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.logo {
+
+}
+
+.nav {
+    float: right;
+}
+    .link {
+        float: left;
+        margin-left: 20px;
+        color: #999;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .button {
+        text-transform: uppercase;
+        border: 5px solid red;
+        border-radius: 30px;
+        padding: 10px 50px;
+    }
